@@ -243,5 +243,165 @@ $(document).ready(function () {
               });
        });
 
+       //Raja Kaija  Vachcha
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50891791&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/50891791', function (sound) {
+              $('#start-r1').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-r1').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Nila Athu Vaanathu Mele
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271365108&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/271365108', function (sound) {
+              $('#start-r2').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-r2').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+
+       //Po Povai Megam
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271365075&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/271365075', function (sound) {
+              $('#start-r3').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-r3').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+
+       //Sundhari Neeyum
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271365088&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/271365088', function (sound) {
+              $('#start-r4').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-r4').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Sundhari Kannal Oru Sethi
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/77806140&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/77806140', function (sound) {
+              $('#start-r5').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-r5').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Anjali Anjali
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/56716483&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/56716483', function (sound) {
+              $('#start-r6').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-r6').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Nenjorathil
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240954089&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/240954089', function (sound) {
+              $('#start-v1').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-v1').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Kola Kuthu
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/18247589&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/18247589', function (sound) {
+              $('#start-v2').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-v2').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+
+       //Ichu Ichu
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/24400370&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/24400370', function (sound) {
+              $('#start-v3').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-v3').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+
+       //Nooru Saamikal
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323053743&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/323053743', function (sound) {
+              $('#start-v4').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-v4').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Rajane Special
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124340802&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/124340802', function (sound) {
+              $('#start-v5').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-v5').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Makkayala Makkayala
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/29774394&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/29774394', function (sound) {
+              $('#start-v6').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-v6').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
 
 });

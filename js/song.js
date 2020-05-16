@@ -163,5 +163,85 @@ $(document).ready(function () {
               });
        });
 
+       //Singappenney
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/652012811&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/652012811', function (sound) {
+              $('#start-ar1').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-ar1').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Munpe Va En Anpe Va
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345946410&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/345946410', function (sound) {
+              $('#start-ar2').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-ar2').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+
+       //Porale Ponnuthaye
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/804489598&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/804489598', function (sound) {
+              $('#start-ar3').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-ar3').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+
+       //En Vettu Thoddathil
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348359524&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/348359524', function (sound) {
+              $('#start-ar4').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-ar4').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Nee Thane Nee Thane
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/340155138&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/340155138', function (sound) {
+              $('#start-ar5').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-ar5').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
+       //Nenjikulla Uma Mudinjirukke
+       //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/66061745&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       SC.stream('/tracks/66061745', function (sound) {
+              $('#start-ar6').click(function (e) {
+                     e.preventDefault();
+                     sound.start();
+              });
+              $('#stop-ar6').click(function (e) {
+                     e.preventDefault();
+                     sound.stop();
+              });
+       });
+
 
 });
